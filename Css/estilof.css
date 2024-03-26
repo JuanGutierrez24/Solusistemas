@@ -1,0 +1,30 @@
+body{
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    margin: 0;
+    padding: 0;
+
+  }
+  header{
+
+      background-color: rgb(18, 18, 170);
+      color: rgb(200, 205, 212);
+      text-align: center;
+      padding: 5px;
+  }
+  nav{
+      background-color: darkcyan;
+      padding: 12px;
+  }
+  nav ul{
+      margin: 0; padding: 0; list-style: none;}
+  nav li{display: inline;margin-left: 26px;}
+  nav a{color:rgb(20, 7, 75);font-weight: bold;font-size: 18px;}    
+  section{padding: 15px;background-color: beige;}
+  footer{background-color: rgb(92, 97, 92);
+  color:black;
+  text-align: center;
+  padding: 2px;
+  @media only screen and (max-width: 600px) {
+    
+  }
+  }

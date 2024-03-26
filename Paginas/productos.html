@@ -1,0 +1,192 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Introduccion a Java Script</script></title>
+    <link rel="stylesheet" href="../Css/estiloprod.css">
+</head>
+<body bgcolor="white">
+  <header>
+      <h1>Cotizacion de productos</h1>
+    
+    <div class="container-icon">
+      <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor" class="icon-compra">
+          <path stroke-linecap="round" stroke-linejoin="round" d="M2.25 8.25h19.5M2.25 9h19.5m-16.5 5.25h6m-6 2.25h3m-3.75 3h15a2.25 2.25 0 0 0 2.25-2.25V6.75A2.25 2.25 0 0 0 19.5 4.5h-15a2.25 2.25 0 0 0-2.25 2.25v10.5A2.25 2.25 0 0 0 4.5 19.5Z" />
+        </svg>
+    <div class="count-products">
+      <span id="contador-productos">0</span>
+    </div>
+    
+    <div class="container-cart-products.hidden-cart">
+      <div class="cart-products">
+        <div class="info-cart-product">
+           <span class="span cantidad-producto-carrito">1</span>
+           <p class="titulo-producto-carrito">Mouse Gamer</p>
+           <span class="precio-carrito-producto">$30.000</span>
+        </div>
+        <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor" class="icon-close">
+          <path stroke-linecap="round" stroke-linejoin="round" d="m9.75 9.75 4.5 4.5m0-4.5-4.5 4.5M21 12a9 9 0 1 1-18 0 9 9 0 0 1 18 0Z" />
+        </svg>
+        </div>
+      <div class="cart-total">
+         <h3>Total:</h3>
+         <span class="total-pagar">$500.000</span>
+      </div>
+    </div>
+   </div>
+  </header>
+  <div class="container-items">
+   <div class="item">
+    <figure>
+      <img src="../Imagenes/mouse2.jpg" alt="Producto">
+    </figure>
+    <div class="info-producto">
+    <h2>Mouse Gamer</h2>
+    <p class="price">$30.000</p>
+    <button>Añadir al carrito</button>
+    </div>
+    </div>
+    <div class="item">
+    <figure>
+    <img src="../Imagenes/mouse1.jpg" alt="Producto">
+    </figure>
+    <div class="info-producto">
+    <h2>Mouse Gamer</h2>
+    <p class="price">$50.000</p>
+    <button>Añadir al carrito</button>
+    </div>
+    </div><div class="item">
+    <figure>
+    <img src="../Imagenes/pantalla1.jpg" alt="Producto">
+    </figure>
+    <div class="info-producto">
+    <h2>Pantalla Gamer 15"</h2>
+    <p class="price">$250.000</p>
+    <button>Añadir al carrito</button>
+    </div>
+    </div><div class="item">
+    <figure>
+    <img src="../Imagenes/pantalla2.jpg" alt="Producto">
+    </figure>
+    <div class="info-producto">
+    <h2>Pantalla Acer 17"</h2>
+    <p class="price">3$50.000</p>
+    <button>Añadir al carrito</button>
+    </div>
+    </div><div class="item">
+    <figure>
+    <img src="../Imagenes/pc1.jpg" alt="Producto">
+    </figure>
+    <div class="info-producto">
+    <h2>Hp Portatil 14"</h2>
+    <p class="price">$1.750.000</p>
+    <button>Añadir al carrito</button>
+    </div>
+    </div>
+    <div class="item">
+    <figure>
+    <img src="../Imagenes/pc2.jpg" alt="Producto">
+    </figure>
+    <div class="info-producto">
+    <h2>Asus Portatil 14"</h2>
+    <p class="price">$1.600.000</p>
+    <button>Añadir al carrito</button>
+    </div>
+    </div>
+    <div class="item">
+    <figure>
+    <img src="../Imagenes/pc3.jpg" alt="Producto">
+    </figure>
+    <div class="info-producto">
+    <h2>Dell Portatil 14"</h2>
+    <p class="price">$1.700.000</p>
+    <button>Añadir al carrito</button>
+    </div>
+    </div>
+    <div class="item">
+    <figure>
+    <img src="../Imagenes/pc4.jpg" alt="Producto">
+    </figure>
+    <div class="info-producto">
+    <h2>Apex Portatil 15" </h2>
+    <p class="price">$1.500.000</p>
+    <button>Añadir al carrito</button>
+    </div>
+    </div>
+    <div class="item">
+    <figure>
+    <img src="../Imagenes/pc5.jpg" alt="Producto">
+    </figure>
+    <div class="info-producto">
+    <h2>Mac Portatil 15"</h2>
+    <p class="price">$4.800.000</p>
+    <button>Añadir al carrito</button>
+    </div>
+    </div>
+    <div class="item">
+    <figure>
+    <img src="../Imagenes/pc 8.jpg" alt="Producto">
+    </figure>
+    <div class="info-producto">
+    <h2>Hp pc de Mesa</h2>
+    <p class="price">$.1300.000</p>
+    <button>Añadir al carrito</button>
+    </div>
+    </div>
+    <div class="item">
+    <figure>
+    <img src="../Imagenes/pc9.jpg" alt="Producto">
+    </figure>
+    <div class="info-producto">
+    <h2>Dell Pc de mesa</h2>
+    <p class="price">$1.600.000</p>
+    <button>Añadir al carrito</button>
+    </div>
+    </div>
+    <div class="item">
+    <figure>
+    <img src="../Imagenes/tablet1.jpg" alt="Producto">
+    </figure>
+    <div class="info-producto">
+    <h2>Tablet</h2>
+    <p class="price">$750.000</p>
+    <button>Añadir al carrito</button>
+    </div>
+    </div>
+    <div class="item">
+    <figure>
+    <img src="../Imagenes/tablet2.jpg" alt="Producto">
+    </figure>
+    <div class="info-producto">
+    <h2>Table Apple</h2>
+    <p class="price">$2.700.000</p>
+    <button>Añadir al carrito</button>
+    </div>
+    </div>
+      <div class="item">
+      <figure>
+      <img src="../Imagenes/router 1.jpg" alt="Producto">
+      </figure>
+      <div class="info-producto"> 
+      <h2>Router</h2>
+      <p class="price">$350.000</p>
+      <button>Añadir al carrito</button>
+      </div>
+      </div>
+      <div class="item">
+      <figure>
+      <img src="../Imagenes/scanner1.jpg" alt="Producto">
+      </figure>
+      <div class="info-producto">
+      <h2>Scanner</h2>
+      <p class="price">$650.000</p>
+      <button>Añadir al carrito</button>
+      </div>
+      </div>
+    
+    </script>  
+    </body>  
+    </html>  
+</body>
+</html>
